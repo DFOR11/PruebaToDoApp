@@ -1,0 +1,16 @@
+.add-user-btn {
+  background-color: var(--primary);
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.add-user-btn span {
+  font-size: 1.3rem;
+  margin: 0 20px 0 0;
+}

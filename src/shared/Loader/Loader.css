@@ -1,0 +1,7 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  max-height: 180px;
+}

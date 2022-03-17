@@ -1,0 +1,27 @@
+.toDo__container {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+}
+.toDo.--completed {
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+}
+.toDo {
+  width: 90%;
+}
+.delete-todo {
+  background: transparent;
+  color: red;
+  border: 1px solid transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.delete-todo:focus {
+  border: 1px solid rgba(255, 0, 0, 0.637);
+  border-radius: 2px;
+}

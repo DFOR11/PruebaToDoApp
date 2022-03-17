@@ -1,0 +1,32 @@
+.header {
+  box-shadow: 0px 4px 4px #2b2d3703;
+  min-height: 50px;
+  padding: 20px;
+  background-color: var(--white);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  color: var(--gray);
+  font-weight: 500;
+  margin: 0;
+}
+
+.header__user-container {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.user-container__img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+.user-container__name {
+  color: var(--gray);
+  font-weight: 500;
+}
